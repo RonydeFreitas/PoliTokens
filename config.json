@@ -3,15 +3,26 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/",
       "files": [{
-        "destination": "_variables.css",
+        "destination": "build/css/colors.css",
         "format": "css/variables",
         "options": {
           "outputReferences": true
         }
-      }],
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hex", "size/rem", "color/css", "shadow/css"]
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "./js/",
+      "files": [
+        {
+          "destination": "colors.js",
+          "format": "javascript/module-flat",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
     }
   }
 }
