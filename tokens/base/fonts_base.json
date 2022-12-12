@@ -1,0 +1,40 @@
+{
+    "font_size_base": {
+      "web": {
+        "value": "18px",
+        "type": "other"
+      },
+      "mob": {
+        "value": "16px",
+        "type": "other"
+      }
+    },
+    "paragraph": {
+      "value": "1rem",
+      "type": "fontSizes"
+    },
+    "h6": {
+      "value": "(1.125 * 2)rem",
+      "type": "fontSizes"
+    },
+    "h5": {
+      "value": "(1.125 * 3)rem",
+      "type": "fontSizes"
+    },
+    "h4": {
+      "value": "(1.125 * 4)rem",
+      "type": "fontSizes"
+    },
+    "h3": {
+      "value": "(1.125 * 5)rem",
+      "type": "fontSizes"
+    },
+    "h2": {
+      "value": "(1.125 * 6)rem",
+      "type": "fontSizes"
+    },
+    "h1": {
+      "value": "(1.125 * 7)rem",
+      "type": "fontSizes"
+    }
+  }
