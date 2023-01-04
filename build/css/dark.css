@@ -1,0 +1,32 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 14 Dec 2022 14:07:34 GMT
+ */
+ @import url("base/style.css");
+
+:root {
+  --color-text-inverse-paragraph: var(--neutral-700);
+  --color-text-inverse-title: var(--neutral-900);
+  --color-text-paragraph: var(--neutral-100);
+  --color-text-title: var(--neutral-10);
+  --background-level-1: var(--neutral-800);
+  --background-level-0: var(--neutral-900);
+  --accent-extra-light: var(--accent-900);
+  --accent-ligther: var(--accent-800);
+  --accent-light: var(--accent-700);
+  --accent-darkness: var(--accent-10);
+  --accent-dark: var(--accent-200);
+  --accent-normal: var(--accent-300);
+  --secondary-extra-light: var(--secondary-900);
+  --secondary-ligther: var(--secondary-800);
+  --secondary-light: var(--secondary-700);
+  --secondary-darkness: var(--secondary-10);
+  --secondary-dark: var(--secondary-200);
+  --secondary-normal: var(--secondary-300);
+  --primary-extra-light: var(--primary-900);
+  --primary-ligther: var(--primary-800);
+  --primary-light: var(--primary-700);
+  --primary-darkness: var(--primary-10);
+  --primary-dark: var(--primary-100);
+  --primary-normal: var(--primary-300);
+}

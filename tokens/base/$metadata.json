@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "PoliTokens-base",
+    "PoliTokens-base-font",
+    "PoliTokens_web",
+    "PoliTokens_light",
+    "PoliTokens_dark"
+  ]
+}

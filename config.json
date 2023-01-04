@@ -1,10 +1,11 @@
 {
-  "source": ["tokens/base/tokens.json"],
+  "source": ["tokens/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
+      "buildPath": "build/css/",
       "files": [{
-        "destination": "build/css/test_complex.css",
+        "destination": "_style.css",
         "format": "css/variables",
         "options": {
           "outputReferences": true
@@ -13,16 +14,15 @@
     },
     "js": {
       "transformGroup": "js",
-      "buildPath": "./js/",
-      "files": [
-        {
-          "destination": "test_complex.js",
+      "buildPath": "build/js/",
+      "isSource": true,
+      "files": [{
+          "destination": "_style.js",
           "format": "javascript/module-flat",
           "options": {
             "outputReferences": true
           }
-        }
-      ]
+        }]
     }
   }
 }
