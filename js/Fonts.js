@@ -27,6 +27,6 @@ module.exports = {
   "textWeightBold": 700,
   "textWeightSemiBold": 600,
   "textWeightNormal": 400,
-  "textFamilyContent": Lato,
-  "textFamilyTitle": Montserrat,
+  "textFamilyContent": "Lato",
+  "textFamilyTitle": "Montserrat",
 };

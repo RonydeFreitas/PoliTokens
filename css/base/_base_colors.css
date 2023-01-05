@@ -3,6 +3,8 @@
  * Generated on Thu, 05 Jan 2023 13:17:52 GMT
  */
 
+ @import url("../_fonts.css");
+
 :root {
   --color-hs-informative-base: 190, 100%;
   --color-hs-negative-base: 7, 100%;
