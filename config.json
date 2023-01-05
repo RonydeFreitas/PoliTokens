@@ -1,11 +1,12 @@
+
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["tokens/base/fonts/fonts.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
       "files": [{
-        "destination": "_style.css",
+        "destination": "_fonts.css",
         "format": "css/variables",
         "options": {
           "outputReferences": true
@@ -13,11 +14,12 @@
       }]
     },
     "js": {
+      "transforms": ["name/cti/camel","color/css", "size/object"],
       "transformGroup": "js",
       "buildPath": "build/js/",
       "isSource": true,
       "files": [{
-          "destination": "_style.js",
+          "destination": "_fonts.js",
           "format": "javascript/module-flat",
           "options": {
             "outputReferences": true

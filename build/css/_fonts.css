@@ -1,0 +1,30 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 05 Jan 2023 10:46:16 GMT
+ */
+
+:root {
+  --base: 16;
+  --normal: 400;
+  --semi-bold: 600;
+  --text-bold: 700;
+  --fonth1: var(--base) * 2.5;
+  --line-heights-xs: var(--base) * 0.875;
+  --line-heights-sm: var(--base) * 1;
+  --line-heights-normal: var(--base) * 1.5;
+  --line-heights-h6: var(--base) * 1.5;
+  --line-heights-h5: var(--base) * 1.5;
+  --line-heights-h4: var(--base) * 1.75;
+  --line-heights-h3: var(--base) * 2.25;
+  --line-heights-h2: var(--base) * 2.25;
+  --title-h1: var(--base) * 2;
+  --title-h2: var(--base) * 1.75;
+  --title-h3: var(--base) * 1.50;
+  --title-h4: var(--base) * 1.375;
+  --title-h5: var(--base) * 1.25;
+  --title-h6: var(--base) * 1.125;
+  --content-xs: var(--base) * 0.625;
+  --content-sm: var(--base) * 0.750;
+  --content-normal: var(--base) * 1;
+  --line-heights-h1: var(--fonth1);
+}
