@@ -1,30 +1,31 @@
 /**
  * Do not edit directly
- * Generated on Thu, 05 Jan 2023 10:46:16 GMT
+ * Generated on Thu, 05 Jan 2023 12:02:18 GMT
  */
 
 module.exports = {
-  "contentNormal": "16 * 1",
-  "contentSm": "16 * 0.750",
-  "contentXs": "16 * 0.625",
-  "titleH6": "16 * 1.125",
-  "titleH5": "16 * 1.25",
-  "titleH4": "16 * 1.375",
-  "titleH3": "16 * 1.50",
-  "titleH2": "16 * 1.75",
-  "titleH1": "16 * 2",
-  "lineHeightsH1": "16 * 2.5",
-  "lineHeightsH2": "16 * 2.25",
-  "lineHeightsH3": "16 * 2.25",
-  "lineHeightsH4": "16 * 1.75",
-  "lineHeightsH5": "16 * 1.5",
-  "lineHeightsH6": "16 * 1.5",
-  "lineHeightsNormal": "16 * 1.5",
-  "lineHeightsSm": "16 * 1",
-  "lineHeightsXs": "16 * 0.875",
-  "textBold": "700",
-  "semiBold": "600",
-  "normal": "400",
-  "base": "16",
-  "fonth1": "16 * 2.5"
+  "textSizeNormal": "16 * 1",
+  "textSizeSm": "16 * 0.750",
+  "textSizeXs": "16 * 0.625",
+  "textTitleH6": "16 * 1.125",
+  "textTitleH5": "16 * 1.25",
+  "textTitleH4": "16 * 1.375",
+  "textTitleH3": "16 * 1.50",
+  "textTitleH2": "16 * 1.75",
+  "textTitleH1": "16 * 2",
+  "textLineHeightsH1": "16 * 2.5",
+  "textLineHeightsH2": "16 * 2.25",
+  "textLineHeightsH3": "16 * 2.25",
+  "textLineHeightsH4": "16 * 1.75",
+  "textLineHeightsH5": "16 * 1.5",
+  "textLineHeightsH6": "16 * 1.5",
+  "textLineHeightsNormal": "16 * 1.5",
+  "textLineHeightsSm": "16 * 1",
+  "textLineHeightsXs": "16 * 0.875",
+  "textWeightBold": "700",
+  "textWeightSemiBold": "600",
+  "textWeightNormal": "400",
+  "textFamilyContent": "Lato",
+  "textFamilyTitle": "Montserrat",
+  "base": "16"
 };

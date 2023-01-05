@@ -1,0 +1,114 @@
+{
+  "background": {
+    "level": {
+      "0": {
+        "value": "{neutral.50}",
+        "type": "color"
+      },
+      "1": {
+        "value": "{neutral.10}",
+        "type": "color"
+      }
+    }
+  },
+  "color": {
+    "text": {
+      "title": {
+        "value": "{neutral.900}",
+        "type": "color"
+      },
+      "paragraph": {
+        "value": "{neutral.700}",
+        "type": "color"
+      },
+      "inverse": {
+        "title": {
+          "value": "{neutral.10}",
+          "type": "color"
+        },
+        "paragraph": {
+          "value": "{neutral.100}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "primary": {
+    "normal": {
+      "value": "{primary.700}",
+      "type": "color"
+    },
+    "dark": {
+      "value": "{primary.800}",
+      "type": "color"
+    },
+    "darkness": {
+      "value": "{primary.900}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{primary.300}",
+      "type": "color"
+    },
+    "ligther": {
+      "value": "{primary.100}",
+      "type": "color"
+    },
+    "extra_light": {
+      "value": "{primary.10}",
+      "type": "color"
+    }
+  },
+  "secondary": {
+    "normal": {
+      "value": "{secondary.600}",
+      "type": "color"
+    },
+    "dark": {
+      "value": "{secondary.800}",
+      "type": "color"
+    },
+    "darkness": {
+      "value": "{secondary.900}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{secondary.300}",
+      "type": "color"
+    },
+    "ligther": {
+      "value": "{secondary.100}",
+      "type": "color"
+    },
+    "extra_light": {
+      "value": "{secondary.10}",
+      "type": "color"
+    }
+  },
+  "accent": {
+    "normal": {
+      "value": "{accent.600}",
+      "type": "color"
+    },
+    "dark": {
+      "value": "{accent.800}",
+      "type": "color"
+    },
+    "darkness": {
+      "value": "{accent.900}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{accent.300}",
+      "type": "color"
+    },
+    "ligther": {
+      "value": "{accent.100}",
+      "type": "color"
+    },
+    "extra_light": {
+      "value": "{accent.10}",
+      "type": "color"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 
 {
-  "source": ["tokens/base/fonts/fonts.json"],
+  "source": ["tokens/base/new/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
       "files": [{
-        "destination": "_fonts.css",
+        "destination": "_base_light.css",
         "format": "css/variables",
         "options": {
           "outputReferences": true
@@ -19,7 +19,7 @@
       "buildPath": "build/js/",
       "isSource": true,
       "files": [{
-          "destination": "_fonts.js",
+          "destination": "_base_light.js",
           "format": "javascript/module-flat",
           "options": {
             "outputReferences": true
