@@ -25,9 +25,9 @@ module.exports = {
   "textLineHeightsNormal": LINEHEIGHTBASE,
   "textLineHeightsSm": LINEHEIGHTBASE,
   "textLineHeightsXs": LINEHEIGHTBASE,
-  "textWeightBold": 700,
-  "textWeightSemiBold": 600,
-  "textWeightNormal": 400,
+  "textWeightBold": "700",
+  "textWeightSemiBold": "600",
+  "textWeightNormal": "400",
   "textFamilyContent": "Lato",
   "textFamilyTitle": "Montserrat",
 };
