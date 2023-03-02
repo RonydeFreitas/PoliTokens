@@ -1,12 +1,12 @@
 
 {
-  "source": ["tokens/base/new/*.json"],
+  "source": ["tokens/PoliTokens_base_colors.json", "tokens/PoliTokens_base_font.json", "tokens/PoliTokens_web.json", "tokens/PoliTokens_light.json", "tokens/botao.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/",
+      "buildPath": "build/css/web/",
       "files": [{
-        "destination": "_base_light.css",
+        "destination": "light.css",
         "format": "css/variables",
         "options": {
           "outputReferences": true
@@ -16,10 +16,10 @@
     "js": {
       "transforms": ["name/cti/camel","color/css", "size/object"],
       "transformGroup": "js",
-      "buildPath": "build/js/",
+      "buildPath": "build/js/web/",
       "isSource": true,
       "files": [{
-          "destination": "_base_light.js",
+          "destination": "light.js",
           "format": "javascript/module-flat",
           "options": {
             "outputReferences": true

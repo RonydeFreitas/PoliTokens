@@ -1,0 +1,114 @@
+{
+  "button": {
+    "label": {
+      "font_family": {
+        "value": "Lato",
+        "type": "fontFamilies"
+      },
+      "font_weight": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "font_size": {
+        "value": "{text.content.normal}",
+        "type": "fontSizes"
+      },
+      "line_height": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "paragraph_spacing": {
+        "value": "8",
+        "type": "paragraphSpacing"
+      }
+    },
+    "square": {
+      "value": "{size.base}-{size.base}",
+      "type": "borderRadius"
+    },
+    "padding": {
+      "large": {
+        "value": "10px 10px",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "2px 2px",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "6px 6px",
+        "type": "spacing"
+      }
+    },
+    "background_color": {
+      "primary": {
+        "fill": {
+          "normal": {
+            "value": "{primary.normal}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{primary.dark}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{primary.normal}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{primary.normal}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{primary.normal}30",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "text_color": {
+      "primary": {
+        "fill": {
+          "normal": {
+            "value": "{primary.extra_light}",
+            "type": "color"
+          },
+          "loading": {
+            "value": "{primary.normal}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "radius": {
+      "value": "{size.base}px",
+      "type": "borderRadius"
+    },
+    "circle": {
+      "value": "{size.base}*7px",
+      "type": "borderRadius"
+    }
+  },
+  "focus": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "2",
+      "color": "{primary.ligther}",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "hover": {
+    "value": {
+      "x": "0",
+      "y": "4",
+      "blur": "8",
+      "spread": "0",
+      "color": "{neutral.900}12",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  }
+}

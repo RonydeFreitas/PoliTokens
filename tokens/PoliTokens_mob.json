@@ -1,6 +1,6 @@
 {
   "text": {
-    "size": {
+    "content": {
       "normal": {
         "value": "{base} * 1",
         "type": "fontSizes"
@@ -42,39 +42,39 @@
     },
     "lineHeights": {
       "h1": {
-        "value": "{base} * 2.5",
+        "value": "125%",
         "type": "lineHeights"
       },
       "h2": {
-        "value": "{base} * 2.25",
+        "value": "130%",
         "type": "lineHeights"
       },
       "h3": {
-        "value": "{base} * 2.25",
+        "value": "150%",
         "type": "lineHeights"
       },
       "h4": {
-        "value": "{base} * 1.75",
+        "value": "130%",
         "type": "lineHeights"
       },
       "h5": {
-        "value": "{base} * 1.5",
+        "value": "120%",
         "type": "lineHeights"
       },
       "h6": {
-        "value": "{base} * 1.5",
+        "value": "130%",
         "type": "lineHeights"
       },
       "normal": {
-        "value": "{base} * 1.5",
+        "value": "150%",
         "type": "lineHeights"
       },
       "sm": {
-        "value": "{base} * 1",
+        "value": "130%",
         "type": "lineHeights"
       },
       "xs": {
-        "value": "{base} * 0.875",
+        "value": "140%",
         "type": "lineHeights"
       }
     },
