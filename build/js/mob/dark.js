@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Mar 2023 11:58:47 GMT
+ * Generated on Mon, 06 Mar 2023 14:13:37 GMT
  */
 
 module.exports = {
@@ -118,7 +118,19 @@ module.exports = {
   "elevationInverseLevel1": {"x":"0","y":"-1","blur":"2","spread":"0","color":"#1A1A1A12","type":"dropShadow"},
   "elevationInverseLevel2": {"x":"0","y":"-4","blur":"8","spread":"0","color":"#1A1A1A12","type":"dropShadow"},
   "elevationInverseLevel3": {"x":"0","y":"-8","blur":"16","spread":"0","color":"#1A1A1A12","type":"dropShadow"},
-  "focus": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(209, 100%, 11%, 1)","type":"dropShadow"},
+  "focusPrimary": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(209, 100%, 71%, 1)","type":"dropShadow"},
+  "focusSecondary": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(79, 100%, 76%, 1)","type":"dropShadow"},
+  "focusComplementary": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(284, 100%, 75%, 1)","type":"dropShadow"},
+  "focusFeedbackWarning": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(57, 100%, 75%, 1)","type":"dropShadow"},
+  "focusFeedbackNegative": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(7, 100%, 75%, 1)","type":"dropShadow"},
+  "focusFeedbackInformative": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(190, 100%, 75%, 1)","type":"dropShadow"},
+  "focusFeedbackPositive": {"x":"0","y":"0","blur":"0","spread":"2","color":"hsla(144, 100%, 75%, 1)","type":"dropShadow"},
+  "focusX": "0",
+  "focusY": "0",
+  "focusBlur": "0",
+  "focusSpread": "2",
+  "focusColor": "hsla(209, 100%, 11%, 1)",
+  "focusType": "dropShadow",
   "title": "Montserrat",
   "content": "Lato",
   "textContentNormal": "16 * 1",
@@ -157,9 +169,9 @@ module.exports = {
   "buttonLabelLineHeight": "24",
   "buttonLabelParagraphSpacing": "8",
   "buttonSquare": "4-4",
-  "buttonPaddingLarge": "10px 10px",
-  "buttonPaddingSmall": "2px 2px",
-  "buttonPaddingMedium": "6px 6px",
+  "buttonPaddingLarge": "4 * 2.5",
+  "buttonPaddingSmall": "4 / 2",
+  "buttonPaddingMedium": "4 * 1.5",
   "buttonBackgroundColorPrimaryFillNormal": "hsla(209, 100%, 61%, 1)",
   "buttonBackgroundColorPrimaryFillHover": "hsla(209, 100%, 81%, 1)",
   "buttonBackgroundColorPrimaryFillFocus": "hsla(209, 100%, 61%, 1)",
@@ -167,7 +179,12 @@ module.exports = {
   "buttonBackgroundColorPrimaryFillDisabled": "hsla(209, 100%, 61%, 1)30",
   "buttonTextColorPrimaryFillNormal": "hsla(209, 100%, 1%, 1)",
   "buttonTextColorPrimaryFillLoading": "hsla(209, 100%, 61%, 1)",
-  "buttonRadius": "4px",
-  "buttonCircle": "4*7px",
-  "hover": {"x":"0","y":"4","blur":"8","spread":"0","color":"hsla(0, 0%, 10%, 1)12","type":"dropShadow"}
+  "buttonRadius": "4",
+  "buttonCircle": "4*7",
+  "hoverX": "0",
+  "hoverY": "4",
+  "hoverBlur": "8",
+  "hoverSpread": "0",
+  "hoverColor": "hsla(0, 0%, 10%, 1)12",
+  "hoverType": "dropShadow"
 };

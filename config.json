@@ -1,10 +1,10 @@
 
 {
-  "source": ["tokens/PoliTokens_base_colors.json", "tokens/PoliTokens_base_font.json", "tokens/PoliTokens_web.json", "tokens/PoliTokens_light.json", "tokens/botao.json"],
+  "source": ["tokens/PoliTokens_base_colors.json", "tokens/PoliTokens_base_font.json", "tokens/PoliTokens_mob.json", "tokens/PoliTokens_light.json", "tokens/botao.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/web/",
+      "buildPath": "build/css/mob/",
       "files": [{
         "destination": "light.css",
         "format": "css/variables",
@@ -14,9 +14,9 @@
       }]
     },
     "js": {
-      "transforms": ["name/cti/camel","color/css", "size/object"],
-      "transformGroup": "js",
-      "buildPath": "build/js/web/",
+      "transforms": ["name/cti/camel", "color/css", "size/object"],
+      "transformGroup": "react-native",
+      "buildPath": "build/js/mob/",
       "isSource": true,
       "files": [{
           "destination": "light.js",

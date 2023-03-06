@@ -1,12 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Thu, 02 Mar 2023 11:58:47 GMT
+ * Generated on Mon, 06 Mar 2023 14:13:37 GMT
  */
 
 :root {
-  --button-padding-medium: 6px 6px;
-  --button-padding-small: 2px 2px;
-  --button-padding-large: 10px 10px;
+  --hover-type: dropShadow;
+  --hover-spread: 0;
+  --hover-blur: 8;
+  --hover-y: 4;
+  --hover-x: 0;
   --button-label-paragraph-spacing: 8;
   --button-label-line-height: 24;
   --button-label-font-weight: Regular;
@@ -28,6 +30,11 @@
   --text-line-heights-h1: 125%;
   --content: Lato;
   --title: Montserrat;
+  --focus-type: dropShadow;
+  --focus-spread: 2;
+  --focus-blur: 0;
+  --focus-y: 0;
+  --focus-x: 0;
   --elevation-inverse-level-3: [object Object];
   --elevation-inverse-level-2: [object Object];
   --elevation-inverse-level-1: [object Object];
@@ -43,8 +50,11 @@
   --color-hs-secondary-base: 79, 100%;
   --color-hs-primary-base: 209, 100%;
   --color-hs-neutral-base: 0, 0%;
-  --button-circle: var(--size-base)*7px;
-  --button-radius: var(--size-base)px;
+  --button-circle: var(--size-base)*7;
+  --button-radius: var(--size-base);
+  --button-padding-medium: var(--size-base) * 1.5;
+  --button-padding-small: var(--size-base) / 2;
+  --button-padding-large: var(--size-base) * 2.5;
   --button-square: var(--size-base)-var(--size-base);
   --text-title-h1: var(--base) * 2;
   --text-title-h2: var(--base) * 1.75;
@@ -136,7 +146,7 @@
   --neutral-100: hsla(var(--color-hs-neutral-base), 90%, 1);
   --neutral-50: hsla(var(--color-hs-neutral-base), 96%, 1);
   --neutral-10: hsla(var(--color-hs-neutral-base), 99%, 1);
-  --hover: [object Object];
+  --hover-color: var(--neutral-900)12;
   --button-label-font-size: var(--text-content-normal);
   --color-text-inverse-paragraph: var(--neutral-700);
   --color-text-inverse-title: var(--neutral-900);
@@ -144,6 +154,13 @@
   --color-text-title: var(--neutral-10);
   --background-level-1: var(--neutral-800);
   --background-level-0: var(--neutral-900);
+  --focus-feedback-positive: [object Object];
+  --focus-feedback-informative: [object Object];
+  --focus-feedback-negative: [object Object];
+  --focus-feedback-warning: [object Object];
+  --focus-complementary: [object Object];
+  --focus-secondary: [object Object];
+  --focus-primary: [object Object];
   --accent-extra-light: var(--accent-900);
   --accent-ligther: var(--accent-800);
   --accent-light: var(--accent-700);
@@ -169,5 +186,5 @@
   --button-background-color-primary-fill-focus: var(--primary-normal);
   --button-background-color-primary-fill-hover: var(--primary-dark);
   --button-background-color-primary-fill-normal: var(--primary-normal);
-  --focus: [object Object];
+  --focus-color: var(--primary-ligther);
 }
