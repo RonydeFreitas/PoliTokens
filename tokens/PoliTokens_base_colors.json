@@ -43,6 +43,14 @@
     "900": {
       "value": "hsla({color-hs.neutral.base}, 10%, 1)",
       "type": "color"
+    },
+    "fullalpha": {
+      "value": "hsla(0,0%,0%,0)",
+      "type": "color"
+    },
+    "semiAlphaBlack": {
+      "value": "hsla(0,0%,10%,0.8)",
+      "type": "color"
     }
   },
   "primary": {
@@ -84,6 +92,14 @@
     },
     "900": {
       "value": "hsla({color-hs.primary.base}, 1%, 1)",
+      "type": "color"
+    },
+    "semiAlphaBlue": {
+      "value": "hsla({color-hs.primary.base}, 31%, .15)",
+      "type": "color"
+    },
+    "fullAlpha": {
+      "value": "hsla({color-hs.primary.base}, 31%, .01)",
       "type": "color"
     }
   },
@@ -554,5 +570,17 @@
         "type": "boxShadow"
       }
     }
+  },
+  "0x": {
+    "value": "0",
+    "type": "borderWidth"
+  },
+  "1x": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "2x": {
+    "value": "2",
+    "type": "borderWidth"
   }
 }

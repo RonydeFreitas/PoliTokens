@@ -14,7 +14,7 @@
         "type": "fontSizes"
       },
       "line_height": {
-        "value": "24",
+        "value": "{text.lineHeights.normal}",
         "type": "lineHeights"
       },
       "paragraph_spacing": {
@@ -27,17 +27,33 @@
       "type": "borderRadius"
     },
     "padding": {
-      "large": {
-        "value": "{size.base} * 2.5",
-        "type": "spacing"
+      "vertical": {
+        "large": {
+          "value": "{size.base} * 4",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{size.base} * 2",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{size.base} * 3",
+          "type": "spacing"
+        }
       },
-      "small": {
-        "value": "{size.base} / 2",
-        "type": "spacing"
-      },
-      "medium": {
-        "value": "{size.base} * 1.5",
-        "type": "spacing"
+      "horizontal": {
+        "large": {
+          "value": "{size.base} * 4.5",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{size.base} * 4",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{size.base} * 3",
+          "type": "spacing"
+        }
       }
     },
     "background_color": {
@@ -60,7 +76,51 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{primary.normal}30",
+            "value": "{primary.normal}4D",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "normal": {
+            "value": "{primary.fullAlpha}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{primary.semiAlphaBlue}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{primary.fullAlpha}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{primary.fullAlpha}",
+            "type": "color"
+          },
+          "disable": {
+            "value": "{primary.semiAlphaBlue}",
+            "type": "color"
+          }
+        },
+        "ghost": {
+          "normal": {
+            "value": "{primary.fullAlpha}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{primary.semiAlphaBlue}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{primary.fullAlpha}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{primary.fullAlpha}",
+            "type": "color"
+          },
+          "disable": {
+            "value": "{primary.fullAlpha}",
             "type": "color"
           }
         }
@@ -77,6 +137,20 @@
             "value": "{primary.normal}",
             "type": "color"
           }
+        },
+        "outline": {
+          "normal": {
+            "value": "{primary.normal}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{primary.normal}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{primary.semiAlphaBlue}",
+            "type": "color"
+          }
         }
       }
     },
@@ -87,6 +161,42 @@
     "circle": {
       "value": "{size.base}*7",
       "type": "borderRadius"
+    },
+    "border": {
+      "normal": {
+        "value": "{1x}",
+        "type": "borderWidth"
+      },
+      "none": {
+        "value": "{0x}",
+        "type": "borderWidth"
+      },
+      "large": {
+        "value": "{2x}",
+        "type": "borderWidth"
+      }
+    },
+    "shadowFocus": {
+      "value": {
+        "x": "{focus.x}",
+        "y": "{focus.y}",
+        "blur": "{focus.blur}",
+        "spread": "{focus.spread}",
+        "color": "{focus.color}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "shadowHover": {
+      "value": {
+        "x": "{hover.x}",
+        "y": "{hover.y}",
+        "blur": "{hover.blur}",
+        "spread": "{hover.spread}",
+        "color": "{hover.color}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "focus": {

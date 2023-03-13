@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 06 Mar 2023 14:13:01 GMT
+ * Generated on Mon, 13 Mar 2023 10:28:13 GMT
  */
 
 :root {
@@ -10,7 +10,6 @@
   --hover-y: 4;
   --hover-x: 0;
   --button-label-paragraph-spacing: 8;
-  --button-label-line-height: 24;
   --button-label-font-weight: Regular;
   --button-label-font-family: Lato;
   --base: 18;
@@ -30,6 +29,9 @@
   --text-line-heights-h1: 125%;
   --content: Lato;
   --title: Montserrat;
+  --2x: 2;
+  --1x: 1;
+  --0x: 0;
   --focus-type: dropShadow;
   --focus-spread: 2;
   --focus-blur: 0;
@@ -50,12 +52,23 @@
   --color-hs-secondary-base: 79, 100%;
   --color-hs-primary-base: 209, 100%;
   --color-hs-neutral-base: 0, 0%;
+  --neutral-semi-alpha-black: hsla(0,0%,10%,0.8);
+  --neutral-fullalpha: hsla(0,0%,0%,0);
+  --button-shadow-hover: [object Object];
+  --button-shadow-focus: [object Object];
+  --button-border-large: var(--2x);
+  --button-border-none: var(--0x);
+  --button-border-normal: var(--1x);
   --button-circle: var(--size-base)*7;
   --button-radius: var(--size-base);
-  --button-padding-medium: var(--size-base) * 1.5;
-  --button-padding-small: var(--size-base) / 2;
-  --button-padding-large: var(--size-base) * 2.5;
+  --button-padding-horizontal-small: var(--size-base) * 3;
+  --button-padding-horizontal-medium: var(--size-base) * 4;
+  --button-padding-horizontal-large: var(--size-base) * 4.5;
+  --button-padding-vertical-medium: var(--size-base) * 3;
+  --button-padding-vertical-small: var(--size-base) * 2;
+  --button-padding-vertical-large: var(--size-base) * 4;
   --button-square: var(--size-base)-var(--size-base);
+  --button-label-line-height: var(--text-line-heights-normal);
   --text-title-h1: var(--base) * 2;
   --text-title-h2: var(--base) * 1.75;
   --text-title-h3: var(--base) * 1.50;
@@ -125,6 +138,8 @@
   --secondary-200: hsla(var(--color-hs-secondary-base), 76%, 1);
   --secondary-100: hsla(var(--color-hs-secondary-base), 86%, 1);
   --secondary-10: hsla(var(--color-hs-secondary-base), 96%, 1);
+  --primary-full-alpha: hsla(var(--color-hs-primary-base), 31%, .01);
+  --primary-semi-alpha-blue: hsla(var(--color-hs-primary-base), 31%, .15);
   --primary-900: hsla(var(--color-hs-primary-base), 1%, 1);
   --primary-800: hsla(var(--color-hs-primary-base), 11%, 1);
   --primary-700: hsla(var(--color-hs-primary-base), 21%, 1);
@@ -147,6 +162,17 @@
   --neutral-50: hsla(var(--color-hs-neutral-base), 96%, 1);
   --neutral-10: hsla(var(--color-hs-neutral-base), 99%, 1);
   --hover-color: var(--neutral-900)12;
+  --button-text-color-primary-outline-disabled: var(--primary-semi-alpha-blue);
+  --button-background-color-primary-ghost-disable: var(--primary-full-alpha);
+  --button-background-color-primary-ghost-active: var(--primary-full-alpha);
+  --button-background-color-primary-ghost-focus: var(--primary-full-alpha);
+  --button-background-color-primary-ghost-hover: var(--primary-semi-alpha-blue);
+  --button-background-color-primary-ghost-normal: var(--primary-full-alpha);
+  --button-background-color-primary-outline-disable: var(--primary-semi-alpha-blue);
+  --button-background-color-primary-outline-active: var(--primary-full-alpha);
+  --button-background-color-primary-outline-focus: var(--primary-full-alpha);
+  --button-background-color-primary-outline-hover: var(--primary-semi-alpha-blue);
+  --button-background-color-primary-outline-normal: var(--primary-full-alpha);
   --button-label-font-size: var(--text-content-normal);
   --color-text-inverse-paragraph: var(--neutral-100);
   --color-text-inverse-title: var(--neutral-10);
@@ -179,9 +205,11 @@
   --primary-darkness: var(--primary-900);
   --primary-dark: var(--primary-700);
   --primary-normal: var(--primary-600);
+  --button-text-color-primary-outline-hover: var(--primary-normal);
+  --button-text-color-primary-outline-normal: var(--primary-normal);
   --button-text-color-primary-fill-loading: var(--primary-normal);
   --button-text-color-primary-fill-normal: var(--primary-extra-light);
-  --button-background-color-primary-fill-disabled: var(--primary-normal)30;
+  --button-background-color-primary-fill-disabled: var(--primary-normal)4D;
   --button-background-color-primary-fill-active: var(--primary-normal);
   --button-background-color-primary-fill-focus: var(--primary-normal);
   --button-background-color-primary-fill-hover: var(--primary-dark);

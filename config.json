@@ -1,12 +1,12 @@
 
 {
-  "source": ["tokens/PoliTokens_base_colors.json", "tokens/PoliTokens_base_font.json", "tokens/PoliTokens_mob.json", "tokens/PoliTokens_light.json", "tokens/botao.json"],
+  "source": ["tokens/PoliTokens_base_colors.json", "tokens/PoliTokens_base_font.json", "tokens/PoliTokens_mob.json", "tokens/PoliTokens_dark.json", "tokens/botao.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/mob/",
       "files": [{
-        "destination": "light.css",
+        "destination": "dark.css",
         "format": "css/variables",
         "options": {
           "outputReferences": true
@@ -19,7 +19,7 @@
       "buildPath": "build/js/mob/",
       "isSource": true,
       "files": [{
-          "destination": "light.js",
+          "destination": "dark.js",
           "format": "javascript/module-flat",
           "options": {
             "outputReferences": true
