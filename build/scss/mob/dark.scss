@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 17 Mar 2023 16:28:33 GMT
+// Generated on Fri, 17 Mar 2023 17:07:29 GMT
 
 $hover-type: dropShadow;
 $hover-spread: 0;
@@ -41,7 +41,7 @@ $elevation-inverse-level-1: 0px -1px 2px #1A1A1A12;
 $elevation-normal-level-3: 0px 8px 16px #1A1A1A12;
 $elevation-normal-level-2: 0px 4px 8px #1A1A1A12;
 $elevation-normal-level-1: 0px 1px 2px #1A1A1A12;
-$size-base: 4rem;
+$size-base: 4;
 $color-hs-informative-base: 190, 100%;
 $color-hs-negative-base: 7, 100%;
 $color-hs-alert-base: 57, 100%;
@@ -66,7 +66,7 @@ $button-padding-horizontal-large: $size-base * 4.5;
 $button-padding-vertical-medium: $size-base * 3;
 $button-padding-vertical-small: $size-base * 2;
 $button-padding-vertical-large: $size-base * 4;
-$button-square: $size-base-$size-base;
+$button-square: $size-base - $size-base;
 $button-label-line-height: $text-line-heights-normal;
 $text-title-h1: $base * 2;
 $text-title-h2: $base * 1.75;

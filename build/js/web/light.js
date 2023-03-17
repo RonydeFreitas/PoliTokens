@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Mar 2023 16:28:33 GMT
+ * Generated on Fri, 17 Mar 2023 17:07:29 GMT
  */
 
 module.exports = {
@@ -175,7 +175,7 @@ module.exports = {
   "buttonLabelFontSize": "18 * 1",
   "buttonLabelLineHeight": "130%",
   "buttonLabelParagraphSpacing": "8",
-  "buttonSquare": "4-4",
+  "buttonSquare": "4 - 4",
   "buttonPaddingVerticalLarge": "4 * 4",
   "buttonPaddingVerticalSmall": "4 * 2",
   "buttonPaddingVerticalMedium": "4 * 3",

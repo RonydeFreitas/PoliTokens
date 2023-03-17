@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Mar 2023 16:28:33 GMT
+ * Generated on Fri, 17 Mar 2023 17:07:29 GMT
  */
 
 :root {
@@ -68,7 +68,7 @@
   --button-padding-vertical-medium: var(--size-base) * 3;
   --button-padding-vertical-small: var(--size-base) * 2;
   --button-padding-vertical-large: var(--size-base) * 4;
-  --button-square: var(--size-base)-var(--size-base);
+  --button-square: var(--size-base) - var(--size-base);
   --button-label-line-height: var(--text-line-heights-normal);
   --text-title-h1: var(--base) * 2;
   --text-title-h2: var(--base) * 1.75;

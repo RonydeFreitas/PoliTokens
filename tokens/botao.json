@@ -23,7 +23,7 @@
       }
     },
     "square": {
-      "value": "{size.base}-{size.base}",
+      "value": "{size.base} - {size.base}",
       "type": "borderRadius"
     },
     "padding": {

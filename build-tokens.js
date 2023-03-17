@@ -24,6 +24,7 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
         if (outputReferences) {
           allTokens = [...allTokens].sort(sortByReference(dictionary));
         }
+        console.log(allTokens)
         const customFormatter = {
           boxShadow: (token) => {
             const { value } = token;
@@ -33,12 +34,21 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
           color: (token) => {
             const { name, value } = token;
             return `$${name}: ${value};`;
+          },
+          other: (token) => {
+            const { name, value } = token;
+            // Remove px, rem, em, etc
+            const newValue = value.replace(/px|rem|em/g, "");
+            return `$${name}: ${newValue};`;
           }
         };
 
         function customRemapToken(token) {
           if (customFormatter[token.type]) {
             return customFormatter[token.type](token);
+          }
+          if (token.name == "size-base") {
+            console.log(token)
           }
           return createPropertyFormatter({
             outputReferences,
