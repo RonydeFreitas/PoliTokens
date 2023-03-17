@@ -76,7 +76,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{primary.normal}4D",
+            "value": "{primary.semiAlphaBlue}",
             "type": "color"
           }
         },
@@ -243,7 +243,7 @@
       "type": "spread"
     },
     "color": {
-      "value": "{neutral.900}12",
+      "value": "{neutral.semiAlphaBlack}",
       "type": "color"
     },
     "type": {

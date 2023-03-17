@@ -1,9 +1,10 @@
 {
   "name": "politokens",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
   "main": "index.js",
   "scripts": {
+    "build:tokens": "node ./build-tokens.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/RonydeFreitas/PoliTokens#readme",
   "dependencies": {
     "expr-eval": "^2.0.2"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
   }
 }

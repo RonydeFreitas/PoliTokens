@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Mar 2023 10:25:55 GMT
+ * Generated on Fri, 17 Mar 2023 14:53:23 GMT
  */
 
 :root {
@@ -12,15 +12,15 @@
   --button-label-paragraph-spacing: 8;
   --button-label-font-weight: Regular;
   --button-label-font-family: Lato;
-  --base: 18;
+  --base: 16;
   --text-family-title: Montserrat;
   --text-family-content: Lato;
   --text-weight-normal: 400;
   --text-weight-semi-bold: 600;
   --text-weight-bold: 700;
-  --text-line-heights-xs: 120%;
-  --text-line-heights-sm: 110%;
-  --text-line-heights-normal: 130%;
+  --text-line-heights-xs: 140%;
+  --text-line-heights-sm: 130%;
+  --text-line-heights-normal: 150%;
   --text-line-heights-h6: 130%;
   --text-line-heights-h5: 120%;
   --text-line-heights-h4: 130%;
@@ -174,12 +174,12 @@
   --button-background-color-primary-outline-hover: var(--primary-semi-alpha-blue);
   --button-background-color-primary-outline-normal: var(--primary-full-alpha);
   --button-label-font-size: var(--text-content-normal);
-  --color-text-inverse-paragraph: var(--neutral-700);
-  --color-text-inverse-title: var(--neutral-900);
-  --color-text-paragraph: var(--neutral-100);
-  --color-text-title: var(--neutral-10);
-  --background-level-1: var(--neutral-800);
-  --background-level-0: var(--neutral-900);
+  --color-text-inverse-paragraph: var(--neutral-100);
+  --color-text-inverse-title: var(--neutral-10);
+  --color-text-paragraph: var(--neutral-700);
+  --color-text-title: var(--neutral-900);
+  --background-level-1: var(--neutral-10);
+  --background-level-0: var(--neutral-50);
   --focus-feedback-positive: [object Object];
   --focus-feedback-informative: [object Object];
   --focus-feedback-negative: [object Object];
@@ -187,24 +187,24 @@
   --focus-complementary: [object Object];
   --focus-secondary: [object Object];
   --focus-primary: [object Object];
-  --accent-extra-light: var(--accent-900);
-  --accent-ligther: var(--accent-800);
-  --accent-light: var(--accent-700);
-  --accent-darkness: var(--accent-10);
-  --accent-dark: var(--accent-200);
-  --accent-normal: var(--accent-300);
-  --secondary-extra-light: var(--secondary-900);
-  --secondary-ligther: var(--secondary-800);
-  --secondary-light: var(--secondary-700);
-  --secondary-darkness: var(--secondary-10);
-  --secondary-dark: var(--secondary-200);
-  --secondary-normal: var(--secondary-300);
-  --primary-extra-light: var(--primary-900);
-  --primary-ligther: var(--primary-800);
-  --primary-light: var(--primary-700);
-  --primary-darkness: var(--primary-10);
-  --primary-dark: var(--primary-100);
-  --primary-normal: var(--primary-300);
+  --accent-extra-light: var(--accent-10);
+  --accent-ligther: var(--accent-100);
+  --accent-light: var(--accent-300);
+  --accent-darkness: var(--accent-900);
+  --accent-dark: var(--accent-700);
+  --accent-normal: var(--accent-600);
+  --secondary-extra-light: var(--secondary-10);
+  --secondary-ligther: var(--secondary-100);
+  --secondary-light: var(--secondary-300);
+  --secondary-darkness: var(--secondary-900);
+  --secondary-dark: var(--secondary-700);
+  --secondary-normal: var(--secondary-600);
+  --primary-extra-light: var(--primary-10);
+  --primary-ligther: var(--primary-100);
+  --primary-light: var(--primary-300);
+  --primary-darkness: var(--primary-900);
+  --primary-dark: var(--primary-700);
+  --primary-normal: var(--primary-600);
   --button-text-color-primary-outline-hover: var(--primary-normal);
   --button-text-color-primary-outline-normal: var(--primary-normal);
   --button-text-color-primary-fill-loading: var(--primary-normal);
