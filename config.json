@@ -25,6 +25,17 @@
             "outputReferences": true
           }
         }]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/mob/",
+      "files": [{
+        "destination": "dark.scss",
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
     }
   }
 }
