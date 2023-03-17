@@ -164,15 +164,15 @@
     },
     "border": {
       "normal": {
-        "value": "{1x}",
+        "value": "{_1x}",
         "type": "borderWidth"
       },
       "none": {
-        "value": "{0x}",
+        "value": "{_0x}",
         "type": "borderWidth"
       },
       "large": {
-        "value": "{2x}",
+        "value": "{_2x}",
         "type": "borderWidth"
       }
     },
