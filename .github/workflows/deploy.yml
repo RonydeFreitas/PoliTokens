@@ -1,0 +1,31 @@
+
+
+name: Build and Deploy CD Workflow
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    name: Building and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies 📦
+        run: npm install
+
+      - name: Build tokens 🏗
+        run: npm run build:tokens
+
+      - name: Prepare to publish on NPM 📦
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
