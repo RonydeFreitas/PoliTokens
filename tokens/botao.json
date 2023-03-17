@@ -23,7 +23,7 @@
       }
     },
     "square": {
-      "value": "{size.base}-{size.base}",
+      "value": "{size.base} - {size.base}",
       "type": "borderRadius"
     },
     "padding": {
@@ -159,20 +159,20 @@
       "type": "borderRadius"
     },
     "circle": {
-      "value": "{size.base}*7",
+      "value": "{size.base} * 7",
       "type": "borderRadius"
     },
     "border": {
       "normal": {
-        "value": "{_1x}",
+        "value": "{x1}",
         "type": "borderWidth"
       },
       "none": {
-        "value": "{_0x}",
+        "value": "{x0}",
         "type": "borderWidth"
       },
       "large": {
-        "value": "{_2x}",
+        "value": "{x2}",
         "type": "borderWidth"
       }
     },
