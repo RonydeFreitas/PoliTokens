@@ -571,15 +571,15 @@
       }
     }
   },
-  "_0x": {
+  "x0": {
     "value": "0",
     "type": "borderWidth"
   },
-  "_1x": {
+  "x1": {
     "value": "1",
     "type": "borderWidth"
   },
-  "_2x": {
+  "x2": {
     "value": "2",
     "type": "borderWidth"
   }

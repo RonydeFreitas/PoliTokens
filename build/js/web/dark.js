@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Mar 2023 16:20:43 GMT
+ * Generated on Fri, 17 Mar 2023 16:28:33 GMT
  */
 
 module.exports = {
@@ -135,9 +135,9 @@ module.exports = {
   "focusSpread": "2",
   "focusColor": "hsla(209, 100%, 11%, 1)",
   "focusType": "dropShadow",
-  "0x": "0",
-  "1x": "1",
-  "2x": "2",
+  "x0": "0",
+  "x1": "1",
+  "x2": "2",
   "title": "Montserrat",
   "content": "Lato",
   "textContentNormal": "18 * 1",

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Mar 2023 16:20:43 GMT
+ * Generated on Fri, 17 Mar 2023 16:28:33 GMT
  */
 
 :root {
@@ -29,9 +29,9 @@
   --text-line-heights-h1: 125%;
   --content: Lato;
   --title: Montserrat;
-  --2x: 2;
-  --1x: 1;
-  --0x: 0;
+  --x2: 2;
+  --x1: 1;
+  --x0: 0;
   --focus-type: dropShadow;
   --focus-spread: 2;
   --focus-blur: 0;
@@ -57,9 +57,9 @@
   --hover-color: var(--neutral-semi-alpha-black);
   --button-shadow-hover: [object Object];
   --button-shadow-focus: [object Object];
-  --button-border-large: var(--2x);
-  --button-border-none: var(--0x);
-  --button-border-normal: var(--1x);
+  --button-border-large: var(--x2);
+  --button-border-none: var(--x0);
+  --button-border-normal: var(--x1);
   --button-circle: var(--size-base)*7;
   --button-radius: var(--size-base);
   --button-padding-horizontal-small: var(--size-base) * 3;
