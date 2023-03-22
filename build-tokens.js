@@ -66,7 +66,57 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
             })
             .join(lineSeparator)
         );
-      }
+      },
+        "javascript/deep-js": function ({ dictionary, options, file }) {
+          const { outputReferences } = options;
+          let { allTokens } = dictionary;
+          const lineSeparator = "\n";
+          if (outputReferences) {
+            allTokens = [...allTokens].sort(sortByReference(dictionary));
+          }
+          console.log(allTokens)
+          const customFormatter = {
+            boxShadow: (token) => {
+              const { value } = token;
+              const newValue = `${value.x}px ${value.y}px ${value.blur}px ${value.color}`;
+              return `${token.name} = ${newValue};`;
+            },
+            color: (token) => {
+              const { name, value } = token;
+              return `${name} = ${value};`;
+            },
+            other: (token) => {
+              const { name, value } = token;
+              // Remove px, rem, em, etc
+              const newValue = value.replace(/px|rem|em/g, "");
+              return `${name} = ${newValue};`;
+            }
+          };
+  
+          function customRemapToken(token) {
+            if (customFormatter[token.type]) {
+              return customFormatter[token.type](token);
+            }
+            if (token.name == "size-base") {
+              console.log(token)
+            }
+            return createPropertyFormatter({
+              outputReferences,
+              dictionary,
+              format: "js"
+            })(token);
+          }
+  
+          return (
+            fileHeader({ file, commentStyle: "short" }) +
+            allTokens
+              .map(customRemapToken)
+              .filter(function (strVal) {
+                return !!strVal;
+              })
+              .join(lineSeparator)
+          );
+        }
     },
     platforms: {
       css: {
@@ -90,7 +140,7 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
         files: [
           {
             destination: `${theme}.js`,
-            format: "javascript/module-flat",
+            format: "javascript/deep-js",
             options: {
               outputReferences: true
             }
