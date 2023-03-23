@@ -5,6 +5,7 @@ name: Build and Deploy CD Workflow
 on:
   release:
     types: [created]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -30,5 +31,5 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-            - npm config set _authToken=$NODE_AUTH_TOKEN
-            - npm publish
+            npm config set _authToken=$NODE_AUTH_TOKEN
+            npm publish
