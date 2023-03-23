@@ -74,11 +74,15 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
           boxShadow: (token) => {
             const { value } = token;
             const newValue = `${value.x}px ${value.y}px ${value.blur}px ${value.color}`;
-            return `${token.name} = ${newValue};`;
+            return `${token.name} = "${newValue}";`;
           },
           color: (token) => {
             const { name, value } = token;
-            return `${name} = ${value};`;
+            return `${name} = "${value}";`;
+          },
+          lineHeights: (token) => {
+            const { name, value } = token;
+            return `${name} = "${value}";`;
           },
           other: (token) => {
             const { name, value } = token;
