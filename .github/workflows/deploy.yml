@@ -8,6 +8,7 @@ on:
 
 jobs:
   deploy:
+    
     name: Building and Deploy
     runs-on: ubuntu-latest
     steps:
@@ -26,6 +27,8 @@ jobs:
         run: npm run build:tokens
 
       - name: Prepare to publish on NPM 📦
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-            - npm config set _authToken=${{ secrets.NPM_TOKEN }}
+            - npm config set _authToken=$NODE_AUTH_TOKEN
             - npm publish
