@@ -87,7 +87,11 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
           other: (token) => {
             const { name, value } = token;
             // Remove px, rem, em, etc
+            console.log({"TOKEN": token})
             const newValue = value.replace(/px|rem|em/g, "");
+            if(token.path[0] == "color-hs") {
+              return `${name} = "${newValue}";`;
+            }
             return `${name} = ${newValue};`;
           }
         };
