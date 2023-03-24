@@ -84,6 +84,14 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
             const { name, value } = token;
             return `${name} = "${value}";`;
           },
+          fontFamilies: (token) => {
+            const { name, value } = token;
+            return `${name} = "${value}";`;
+          },
+          type: (token) => {
+            const { name, value } = token;
+            return `${name} = "${value}";`;
+          },
           other: (token) => {
             const { name, value } = token;
             // Remove px, rem, em, etc

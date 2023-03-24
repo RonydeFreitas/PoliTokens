@@ -6,7 +6,7 @@
         "type": "fontFamilies"
       },
       "font_weight": {
-        "value": "Regular",
+        "value": "{text.weight.normal}",
         "type": "fontWeights"
       },
       "font_size": {
