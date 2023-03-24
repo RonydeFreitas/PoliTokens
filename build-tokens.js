@@ -74,39 +74,46 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
           boxShadow: (token) => {
             const { value } = token;
             const newValue = `${value.x}px ${value.y}px ${value.blur}px ${value.color}`;
-            return `${token.name} = "${newValue}";`;
+            return `${token.name}: "${newValue}",`;
+          },
+          boxShadow: (token) => {
+            const { value } = token;
+            const newValue = `${value.x}px ${value.y}px ${value.blur}px ${value.color}`;
+            return `${token.name}: "${newValue}",`;
           },
           color: (token) => {
             const { name, value } = token;
-            return `${name} = "${value}";`;
+            return `${name}: "${value}",`;
           },
           lineHeights: (token) => {
             const { name, value } = token;
-            return `${name} = "${value}";`;
+            return `${name}: "${value}",`;
           },
           fontFamilies: (token) => {
             const { name, value } = token;
-            return `${name} = "${value}";`;
+            return `${name}: "${value}",`;
           },
           type: (token) => {
             const { name, value } = token;
-            return `${name} = "${value}";`;
+            return `${name}: "${value}",`;
           },
           other: (token) => {
             const { name, value } = token;
             // Remove px, rem, em, etc
-            console.log({"TOKEN": token})
+            // console.log({"TOKEN": token})
             const newValue = value.replace(/px|rem|em/g, "");
             if(token.path[0] == "color-hs") {
-              return `${name} = "${newValue}";`;
+              return `${name}: "${newValue}",`;
             }
-            return `${name} = ${newValue};`;
+            return `${name}: ${newValue},`;
           }
         };
 
         function customRemapToken(token) {
           if (customFormatter[token.type]) {
             return customFormatter[token.type](token);
+          } else {
+            return token.name = `${token.name}: ${token.value},`
           }
           return createPropertyFormatter({
             outputReferences,
@@ -115,15 +122,16 @@ const getStyleDictionaryConfig = (theme, targetDevice) => {
           })(token);
         }
 
-        return (
+        return (`${ 
           fileHeader({ file, commentStyle: "short" }) +
+          "module.exports = {" + lineSeparator +
           allTokens
             .map(customRemapToken)
             .filter(function (strVal) {
-              return !!strVal;
+              return !!strVal.replace(/=/g, ":");
             })
             .join(lineSeparator)
-        );
+           + lineSeparator + "}"}`);
       }
     },
     platforms: {
